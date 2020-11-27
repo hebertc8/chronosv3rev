@@ -1,0 +1,23 @@
+@host = http://localhost:53232
+//@host = http://10.151.230.137:53231
+//@host = https://mytpdemo.teleperformance.co
+
+@token = Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6ImNhbXBvc21lbmRvemEuOCIsImlkY2NtcyI6MjM0MzMyMywiaWF0IjoxNTg0NDY3MzU1LCJleHAiOjE1ODQ0NzgxNTV9.xiXRElvV4Sxmuk6mEG_aKI9H8cvYTLzJqRrGIur4Do4
+
+### login
+POST {{host}}/api/login
+Content-Type: application/json
+
+{
+	"body": "seyJ1c2VyIjoiY2FtcG9zbWVuZG96YS44IiwicGFzcyI6IlRlbDgxMjg5ODIuMS42In0=",
+	"token":"asdflaksdjfoqiwrpoijPOIhgIUygoIjoIJpoiy7itUYtUyugIUIuninoinoiUNoiugiuyfIyfuytFuyTfuyTfuYtIuy87T97&tuYtfIuhoNoinuOIuHuYGiU"
+}
+
+
+
+
+
+### test
+GET {{host}}/api/testSql
+Content-Type: application/json
+Authorization: {{token}}

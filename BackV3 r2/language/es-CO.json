@@ -1,0 +1,9 @@
+{
+    "inicio":"inicio",
+    "default":"español",
+    "ruta": {
+        "1":1,
+        "2":2,
+        "3":3
+    }
+}
